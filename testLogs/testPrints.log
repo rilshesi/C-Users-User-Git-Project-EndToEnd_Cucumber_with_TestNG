@@ -1,0 +1,4 @@
+20:11:07.544 [main] INFO  frameWork_8.EndToEndF_New.TestHomeWithLog4j - search box is present
+20:11:28.371 [main] DEBUG frameWork_8.EndToEndF_New.TestHomeWithLog4j - login clicked
+20:11:56.909 [main] DEBUG frameWork_8.EndToEndF_New.TestHomeWithLog4j - Portal Homepage is Displayed
+20:11:56.991 [main] INFO  frameWork_8.EndToEndF_New.TestHomeWithLog4j - search box is present

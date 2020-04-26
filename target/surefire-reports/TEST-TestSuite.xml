@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="301.683" tests="11" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\User\eclipse-workspace\EndToEnd_Cucumber_with_TestNG\src\main\java\resourc\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\User\eclipse-workspace\EndToEnd_Cucumber_with_TestNG\target\test-classes;C:\Users\User\eclipse-workspace\EndToEnd_Cucumber_with_TestNG\target\classes;C:\Users\User\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\User\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\User\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\User\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\User\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\User\.m2\repository\org\testng\testng\6.9.8\testng-6.9.8.jar;C:\Users\User\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\User\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\User\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\User\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\User\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\User\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\User\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\User\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-java\5.6.0\cucumber-java-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-core\5.6.0\cucumber-core-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin\5.6.0\cucumber-gherkin-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.6.0\cucumber-gherkin-vintage-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\User\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-plugin\5.6.0\cucumber-plugin-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\docstring\5.6.0\docstring-5.6.0.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-junit\5.6.0\cucumber-junit-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-testng\5.6.0\cucumber-testng-5.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="org.apache.logging.log4j.assignedSequences" value="16231"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire5056283250463010645\surefirebooter6972071260745437619.jar C:\Users\User\AppData\Local\Temp\surefire5056283250463010645 2020-04-21T20-06-55_035-jvmRun1 surefire8036416189856477031tmp surefire_0934628958417208444tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\User\eclipse-workspace\EndToEnd_Cucumber_with_TestNG\target\test-classes;C:\Users\User\eclipse-workspace\EndToEnd_Cucumber_with_TestNG\target\classes;C:\Users\User\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\User\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\User\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\User\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\User\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\User\.m2\repository\org\testng\testng\6.9.8\testng-6.9.8.jar;C:\Users\User\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\User\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\User\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\User\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\User\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\User\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\User\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\User\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-java\5.6.0\cucumber-java-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-core\5.6.0\cucumber-core-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin\5.6.0\cucumber-gherkin-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.6.0\cucumber-gherkin-vintage-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\User\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-plugin\5.6.0\cucumber-plugin-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\docstring\5.6.0\docstring-5.6.0.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-junit\5.6.0\cucumber-junit-5.6.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-testng\5.6.0\cucumber-testng-5.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\User\eclipse-workspace\EndToEnd_Cucumber_with_TestNG"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire5056283250463010645\surefirebooter6972071260745437619.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="User"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\User\eclipse-workspace\EndToEnd_Cucumber_with_TestNG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Users\User\AppData\Local\Android\Sdk\tools;C:\Users\User\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\nodejs\node_modules\npm\bin;?C:\Test\platform-tools(speedUp usb);C:\Program Files\nodejs\;C:\Users\User\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\OpenSSL-Win64\bin;C:\OpenSSL-Win64;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="homeQaclickAccess" classname="frameWork_8.EndToEndF_New.TestHomeWithLog4j" time="5.369">
+    <failure message="expected [FEATURED COURSE] but found [FEATURED COURSES]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [FEATURED COURSE] but found [FEATURED COURSES]
+	at frameWork_8.EndToEndF_New.TestHomeWithLog4j.homeQaclickAccess(TestHomeWithLog4j.java:98)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 47439
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 21, 2020 8:07:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587496026.658][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496026.764][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496026.909][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.019][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.123][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.226][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.332][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.436][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.539][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.649][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.751][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.855][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496027.959][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.065][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.274][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.378][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.484][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.589][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.805][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496028.910][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.021][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.127][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.237][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.346][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.449][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.554][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.658][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.765][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.867][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496029.970][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496030.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496030.180][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496030.284][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496030.386][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496030.490][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496030.593][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496030.700][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496031.665][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496031.767][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496031.873][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496031.977][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496032.079][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496032.384][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496032.486][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496032.589][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496032.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496032.800][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496032.904][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496033.094][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496033.218][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496033.322][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496033.425][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496033.528][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496033.726][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496033.923][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.029][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.134][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.235][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.374][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.477][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.578][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.679][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.782][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496034.884][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496035.042][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496035.213][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496035.339][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496035.446][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496035.549][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496035.650][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496035.752][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496035.855][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496036.060][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496036.167][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496036.270][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496036.371][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496036.498][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496036.648][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496036.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.091][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.199][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.303][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.473][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.579][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.681][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.782][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.884][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496037.986][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496038.088][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496038.189][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496038.290][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496038.393][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496038.495][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496038.596][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496038.713][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496038.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496039.092][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496039.253][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587496039.474][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="homeQaclickAccess2" classname="frameWork_8.EndToEndF_New.TestHomeWithLog4j" time="10.121"/>
+  <testcase name="loginQaclickAccess" classname="frameWork_8.EndToEndF_New.TestHomeWithLog4j" time="27.744"/>
+  <testcase name="validateSearchBox" classname="frameWork_8.EndToEndF_New.TestHomeWithLog4j" time="0.097"/>
+  <testcase name="homeQaclickAccess" classname="frameWork_8.EndToEndF_New.TestHomeQaclick" time="12.121"/>
+  <testcase name="loginQaclickAccess" classname="frameWork_8.EndToEndF_New.TestHomeQaclick" time="28.055"/>
+  <testcase name="loginQaclickAccess" classname="testWithTestngData.TestHomeWithParameterizing" time="44.732"/>
+  <testcase name="loginQaclickAccess" classname="testWithTestngData.TestHomeWithParameterizing" time="20.797"/>
+  <testcase name="loginQaclickAccess" classname="testWithTestngData.TestHomeWithParameterizing" time="20.133"/>
+  <testcase name="runScenario" classname="testRunnerFile.TestRunner" time="46.97"/>
+  <testcase name="runScenario" classname="testRunnerFile.TestRunner" time="49.267"/>
+</testsuite>

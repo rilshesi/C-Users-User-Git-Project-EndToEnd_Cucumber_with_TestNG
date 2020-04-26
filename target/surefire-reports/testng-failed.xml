@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="resourc.Listeners"/>
+    <listener class-name="resourc.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="none">
+    <classes>
+      <class name="frameWork_8.EndToEndF_New.TestHomeWithLog4j">
+        <methods>
+          <include name="homeQaclickAccess"/>
+          <include name="baseFileBrowserAccess"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- frameWork_8.EndToEndF_New.TestHomeWithLog4j -->
+      <class name="testRunnerFile.TestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- testRunnerFile.TestRunner -->
+      <class name="frameWork_8.EndToEndF_New.TestHomeQaclick">
+        <methods>
+          <include name="tearDown"/>
+          <include name="baseFileBrowserAccess"/>
+        </methods>
+      </class> <!-- frameWork_8.EndToEndF_New.TestHomeQaclick -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

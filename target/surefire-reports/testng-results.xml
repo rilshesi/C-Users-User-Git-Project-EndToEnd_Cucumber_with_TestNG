@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="297099" started-at="2020-04-21T19:07:00Z" finished-at="2020-04-21T19:11:57Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerFile.TestRunner@1c7696c6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test1" duration-ms="67168" started-at="2020-04-21T19:07:00Z" finished-at="2020-04-21T19:08:07Z">
+      <class name="frameWork_8.EndToEndF_New.TestHomeWithLog4j">
+        <test-method status="PASS" signature="baseFileBrowserAccess()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeWithLog4j@27f981c6]" name="baseFileBrowserAccess" is-config="true" duration-ms="18863" started-at="2020-04-21T20:07:00Z" finished-at="2020-04-21T20:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseFileBrowserAccess -->
+        <test-method status="FAIL" signature="homeQaclickAccess()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeWithLog4j@27f981c6]" name="homeQaclickAccess" duration-ms="5363" started-at="2020-04-21T20:07:19Z" finished-at="2020-04-21T20:07:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSE] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSE] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at frameWork_8.EndToEndF_New.TestHomeWithLog4j.homeQaclickAccess(TestHomeWithLog4j.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeQaclickAccess -->
+        <test-method status="PASS" signature="homeQaclickAccess2()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeWithLog4j@27f981c6]" name="homeQaclickAccess2" duration-ms="10118" started-at="2020-04-21T20:07:25Z" finished-at="2020-04-21T20:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeQaclickAccess2 -->
+        <test-method status="PASS" signature="loginQaclickAccess()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeWithLog4j@27f981c6]" name="loginQaclickAccess" duration-ms="27747" started-at="2020-04-21T20:07:35Z" finished-at="2020-04-21T20:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginQaclickAccess -->
+        <test-method status="PASS" signature="validateSearchBox()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeWithLog4j@27f981c6]" name="validateSearchBox" duration-ms="95" started-at="2020-04-21T20:08:03Z" finished-at="2020-04-21T20:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeWithLog4j@27f981c6]" name="tearDown" is-config="true" duration-ms="4457" started-at="2020-04-21T20:08:03Z" finished-at="2020-04-21T20:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frameWork_8.EndToEndF_New.TestHomeWithLog4j -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="47468" started-at="2020-04-21T19:08:07Z" finished-at="2020-04-21T19:08:55Z">
+      <class name="frameWork_8.EndToEndF_New.TestHomeQaclick">
+        <test-method status="PASS" signature="baseFileBrowserAccess()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeQaclick@783a467b]" name="baseFileBrowserAccess" is-config="true" duration-ms="7066" started-at="2020-04-21T20:08:07Z" finished-at="2020-04-21T20:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseFileBrowserAccess -->
+        <test-method status="PASS" signature="homeQaclickAccess()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeQaclick@783a467b]" name="homeQaclickAccess" duration-ms="12123" started-at="2020-04-21T20:08:15Z" finished-at="2020-04-21T20:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeQaclickAccess -->
+        <test-method status="PASS" signature="loginQaclickAccess()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeQaclick@783a467b]" name="loginQaclickAccess" duration-ms="28055" started-at="2020-04-21T20:08:27Z" finished-at="2020-04-21T20:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginQaclickAccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:frameWork_8.EndToEndF_New.TestHomeQaclick@783a467b]" name="tearDown" is-config="true" duration-ms="222" started-at="2020-04-21T20:08:55Z" finished-at="2020-04-21T20:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frameWork_8.EndToEndF_New.TestHomeQaclick -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="85650" started-at="2020-04-21T19:08:55Z" finished-at="2020-04-21T19:10:21Z">
+      <class name="testWithTestngData.TestHomeWithParameterizing">
+        <test-method status="PASS" signature="loginQaclickAccess(java.lang.String, java.lang.String)[pri:0, instance:testWithTestngData.TestHomeWithParameterizing@942a29c]" name="loginQaclickAccess" duration-ms="44716" started-at="2020-04-21T20:08:55Z" data-provider="getData" finished-at="2020-04-21T20:09:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[olushesi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rodmanraylex1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginQaclickAccess -->
+        <test-method status="PASS" signature="loginQaclickAccess(java.lang.String, java.lang.String)[pri:0, instance:testWithTestngData.TestHomeWithParameterizing@942a29c]" name="loginQaclickAccess" duration-ms="20813" started-at="2020-04-21T20:09:40Z" data-provider="getData" finished-at="2020-04-21T20:10:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginQaclickAccess -->
+        <test-method status="PASS" signature="loginQaclickAccess(java.lang.String, java.lang.String)[pri:0, instance:testWithTestngData.TestHomeWithParameterizing@942a29c]" name="loginQaclickAccess" duration-ms="20118" started-at="2020-04-21T20:10:01Z" data-provider="getData" finished-at="2020-04-21T20:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginQaclickAccess -->
+      </class> <!-- testWithTestngData.TestHomeWithParameterizing -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="96742" started-at="2020-04-21T19:10:21Z" finished-at="2020-04-21T19:11:57Z">
+      <class name="testRunnerFile.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunnerFile.TestRunner@1c7696c6]" name="setUpClass" is-config="true" duration-ms="498" started-at="2020-04-21T20:10:21Z" finished-at="2020-04-21T20:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerFile.TestRunner@1c7696c6]" name="runScenario" duration-ms="46969" started-at="2020-04-21T20:10:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-21T20:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["positive test validating login1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into applicatrion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerFile.TestRunner@1c7696c6]" name="runScenario" duration-ms="49266" started-at="2020-04-21T20:11:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-21T20:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["positive test validating login1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into applicatrion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunnerFile.TestRunner@1c7696c6]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-04-21T20:11:57Z" finished-at="2020-04-21T20:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunnerFile.TestRunner -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
